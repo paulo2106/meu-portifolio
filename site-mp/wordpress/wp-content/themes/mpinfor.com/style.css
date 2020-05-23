@@ -1,0 +1,671 @@
+/*
+Theme Name:mpinfor.com
+Theme URI:
+Description: um tema desenvolvido pela mpinfor.com
+Autor:Paulo
+version:1.0
+
+*/
+*{
+ 	margin: 0;
+	padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'Open Sans', sans-serif;
+}
+.main-header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.barra-topo{
+	max-width: 100%;
+	padding: 15px 0;
+	background-color: black;
+}
+.container{
+	width:  1200px;
+	margin: 0 auto;
+}
+ .menu{
+	text-align: center;
+
+}
+ 	ul li{
+ 	padding: 10px;
+}
+.menu li{
+ 	list-style-type:none;
+ 	display: inline-block;
+ 	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+}
+ul li a{
+	text-decoration: none;	
+	color: #fff;
+}
+ul li a:hover{
+ 	border: 2px solid #fff;
+ 	padding: 5px 10px;
+ 	border-radius: 10px;	
+}
+.logo {
+ 	position: absolute;
+ 	top: 0;
+ 	padding: 10px;
+}
+.banner img{
+ 	width: 100%;
+ 	margin-top: 20px;
+}
+.coteudo {
+	position: absolute;
+	top: 0;
+	margin-top: 120px;
+}
+ span{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	color: #fff;
+}
+.sobre{
+	width: 100%;
+	padding: 20px;
+	background-color: black;
+	margin-top: -5px;
+}
+.sobre span{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.sobre{
+	text-align: center;
+}
+.conte-udo{
+	max-width:  100%;
+	background-color: #a9a9a9;
+	padding: 50px;
+}
+.conte-udo h2{
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 40px;
+}
+.conte-udo p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+.conte-udo ul li{
+	font-family: 'Open Sans', sans-serif;
+}
+.Services {
+	width: 100%;
+  background: url(img/ban-n.jpg) no-repeat ;
+	height: 500px;
+	background-attachment: fixed;
+	padding-top: 140px;
+	background-position: 50% 0, 50% 0, 50% 0, 50% 0;
+	background-size: cover;
+}
+.cont h2{
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.service-topo h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	
+	color: #fff;
+}
+.serve{
+   max-width: 100%;
+  padding: 40px;
+}
+.serve p{
+	font-family: 'Open Sans', sans-serif;
+	width: 450px;
+	text-align: justify;
+}
+.serve h2{
+  padding-bottom: 10px;
+}
+.coluna{
+ 	padding: 30px;
+ 	margin-bottom: 40px;
+ 	background: #f3f3f3;
+ 	min-height: 245px;
+ 	width: 100%;
+ 	margin-left: 50px;
+ 	border-radius: 10px;
+}
+.serve h2{
+  font-family: 'Open Sans', sans-serif;
+}
+.btn{
+  padding: 4px 10px;
+  background: blue;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.page{
+	padding: 30px; 
+}
+.page p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.page img{
+	float: right;
+}
+ .page h1 ,h2{
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.page1 p{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.page1{
+	padding: 30px;
+}
+.page1 h1{
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.page1 img{
+	float: right;
+}
+.page2 img{
+	float: right;
+	margin-left: 10px;
+}
+.page2 h1{
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.page2 p{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.page2 {
+	padding: 30px;
+
+}
+.page3{
+	padding: 30px;
+
+}
+.page3 img{
+	float: right;
+	margin-left: 10px;
+}
+.page3 h1{
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.page3 p{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.page4{
+  margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+}
+.page4 h2{
+	font-family: 'Open Sans', sans-serif;
+}
+.page4 img{
+	float: right;
+	margin-left: 10px;
+}
+.page4 p{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.page4 ul li{
+	list-style-type: none;
+}
+.page5{
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+}
+.page5 h1 {
+	margin-bottom: 20px;
+}
+.page5 h2{
+	margin-bottom: 20px;
+}
+.page5 img{
+	float: right;
+		margin-left: 10px;
+}
+.planos{
+ width: 100%;
+ background: url(img/tecnologia.jpg);
+ height: 400px;
+ background-attachment: fixed;
+ padding-top: 140px;
+ background-position: 50% 0, 50% 0, 50% 0, 50% 0;
+ background-size: cover;
+}
+.banner-plano h1{
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+ color: #fff;
+ font-size: 34px;
+ padding: 70px;
+}
+.consultoria h1{
+ padding: 40px;
+ font-size: 30px;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+	 
+}
+.wrapper div{
+ font-size: 20px;
+ font-family: 'Open Sans', sans-serif;
+ margin-bottom: 20px;
+}
+.suporte{
+	background-color: #ccc;
+	width: 100%;
+	padding: 60px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.suporte h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.suporte-onlaine{
+	text-align: center;
+	height: 700px;
+}
+.suporte-onlaine a{
+	text-decoration: none;
+	color: black;
+}
+.contato h1{
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;	
+}
+#nome{
+	width: 50%;
+	height: 40px;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+ 
+}
+#email{
+	width: 50%;
+	height: 40px;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+
+}
+#assunto{
+	width: 50%;
+	height: 40px;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+#textarea{
+  width: 50%;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+#botao{
+	padding: 12px 35px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	border-radius:  6px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	padding: 60px 0;
+	position: absolute;
+}
+.footer .logo-img{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#endereço{
+	text-align: center;
+}
+#endereço p{
+	color: #ccc;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-bottom: 10px;
+
+}
+#telefone{
+	color: #ccc;
+	text-align: center;
+
+}
+#direitos{
+	width: 100%;
+  height: 40px;
+  background-color: #696969;
+  position: absolute;
+  top: 100%;
+}
+#direitos p{
+}
+.text p{
+	text-align: center;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 14px;
+	color: #ccc;
+}
+div.btn_menu{
+	width: 40px;
+	height: 6px;
+	position: absolute;
+	top: 40%;
+	left: 14px;
+	background-color: #fff;
+	display: none;
+	cursor: pointer;
+}
+.btn_menu:before{
+	content: '';
+	width: 40px;
+	height: 6px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  cursor: pointer;
+  
+}
+.btn_menu:after{
+	content: '';
+	width: 40px;
+	height: 6px;
+  background-color: #fff;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  
+}
+.bt_close{
+	color: #fff;
+	position: absolute;
+	top: 0;
+	font-size: 40px;
+	display: none;
+	left: 20px;
+}
+@media(max-width: 1218px){
+	.coluna{
+		width: 90%;
+	}
+	.serve p{
+		width: 300px;
+		font-size: 16px;
+	}
+}
+@media(max-width: 1024px){
+   
+.menu{
+  position: absolute;
+	top: 0;
+	left: 0;
+	width:  100%;
+	height: 200px;
+	background: #2c2d2d;
+	transform: translateX(-100%);
+	transition: transform 200ms linear;
+  }
+  div.btn_menu{
+  	display: block;
+
+  	
+  }
+  .bt_close{
+    display: block;
+    cursor: pointer;
+  }
+  .barra-topo{
+  	padding: 34px 0;
+
+  }
+  .logo img {
+   	 margin-left: 50px;
+   }
+   .banner img{
+   }
+   .conte-udo{
+   	padding: 0;
+
+   }
+   .col-md-6  {
+   
+   	 
+   }
+   .conte-udo p{
+     font-size: 15px;
+
+   }
+   .container{
+     max-width: 100%;
+
+   }
+   .conte-udo h2{
+   	font-size: 20px;
+   }
+   .coluna{
+     width: 90%;
+   }
+   .coteudo span{
+   	font-size: 30px;
+   
+   }
+   .cont h2{
+   	font-size: 30px;
+   }
+   .banner-plano h1{
+   	font-size: 30px;
+   }
+  .btn_menu{
+  	transform: translateX(0);
+  }
+
+}
+@media(max-width: 1000px){
+	.container{
+	 max-width: 80%;
+
+	}
+	.coluna{
+		width: 100%;
+	}
+}
+@media(max-width: 900px){
+	.conte-udo p{
+		width: 80%;
+	}
+	.coluna{
+		width: 100%;
+	}
+	.container{
+		width: 32rem;
+	}
+}
+@media(max-width:  800px){
+  #nome , #email , #assunto {
+	width: 100%;
+	height: 40px;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+ 
+   } 
+}
+@media(max-width: 800px){
+	 #textarea{
+  width: 100%;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+  }
+}
+
+
+
+@media(max-width: 768px){
+}
+@media(max-width: 600px){
+	.container{
+     width: 22rem;
+	}
+}
+@media(max-width: 540px){
+	.coluna{
+		width: 80%;
+	}
+	.serve p{
+		width: 200px;
+		font-size: 14px;
+	}
+	.coteudo span{
+		font-size: 20px;
+	}
+}
+@media(max-width: 400px){
+	.contato h1{
+		text-align: center;
+	}
+	.#direitos p{
+		padding: 0;
+	}
+}
+
+
+@media(max-width: 300px){
+	 span {
+		font-size: 16px;
+		margin-left: 10px;
+		
+	}
+	.banner img{
+		height: 252px;
+	}
+	.banner-plano h1{
+		font-size: 28px;
+
+	}
+	.conte-udo h2{
+		text-align: center;
+	}
+	.conte-udo p{
+		width: 80%;
+		margin-left: 27px;
+	}
+	.container{
+		max-width: 100%;
+	}
+	.serve p{
+		width: 143px;
+		font-size: 13px;
+	}
+	.coluna{
+		width: 100%;
+		background-color: #fff;
+
+		
+	}
+	.conte-udo ul li{
+		margin-left: 20px;
+	}
+	.wrapper div{
+	  font-size: 16px;
+    width: 80%;
+    margin-left: 20px;
+
+	}
+	#nome , #email , #assunto {
+	width: 90%;
+	height: 40px;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+ 
+   } 
+   #textarea{
+  width: 90%;
+	border-radius:  6px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+  }
+  #botao{
+  	margin-left: 20px;
+  }
+  #direitos{
+  	height: 58px;
+  }
+  .container{
+  	text-align: center;
+  }
+}
